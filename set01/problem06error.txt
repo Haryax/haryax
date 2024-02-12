@@ -1,0 +1,8 @@
+PS E:\psc\haryax> cd set01         
+PS E:\psc\haryax\set01> gcc problem06.c  
+PS E:\psc\haryax\set01> ./a.exe          
+Enter a number:5
+Enter a number:6
+Enter a number:7
+largest for 5,6 and 7 is 7
+PS E:\psc\haryax\set01> 

@@ -1,0 +1,3 @@
+PS E:\psc\haryax\set01> gcc problem01.c
+PS E:\psc\haryax\set01> .\a.exe
+My name is Haryax

@@ -1,0 +1,5 @@
+PS E:\psc\haryax\set01> gcc problem02.c   
+PS E:\psc\haryax\set01> ./a.exe
+Enter a number:4
+Enter a number:5
+The sum of two number is 9

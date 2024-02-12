@@ -1,0 +1,4 @@
+PS E:\psc\haryax\set01> gcc problem07.c 
+PS E:\psc\haryax\set01> ./a.exe         
+Enter a number:45
+The sum of all natural number is 1035
