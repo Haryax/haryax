@@ -1,0 +1,5 @@
+PS E:\psc\haryax\set01> gcc problem09.c
+PS E:\psc\haryax\set01> ./a.exe        
+Enter a number:4
+The square root of 4.00 is 2.00
+PS E:\psc\haryax\set01> 

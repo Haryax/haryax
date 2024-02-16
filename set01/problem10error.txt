@@ -1,0 +1,8 @@
+PS E:\psc\haryax\set01> gcc problem10.c
+PS E:\psc\haryax\set01> ./a.exe        
+Enter the string : 
+Hello
+Enter the string : 
+hello
+Hello is greater
+PS E:\psc\haryax\set01>

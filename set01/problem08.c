@@ -22,7 +22,7 @@ int main()
 int input_array_size()
 {
     int n;
-    printf("Enter a number:");
+    printf("Enter a array size:");
     scanf("%d",&n);
     return n;
 }
@@ -39,7 +39,7 @@ int sum_n_array(int n, int a[n])
     int sum=0;
     for(int i=0;i<n;i++)
     {
-        sum=sum+a[i];      
+        sum=sum+a[i];    
     }
     return sum;
 }
