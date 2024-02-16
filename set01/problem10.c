@@ -64,4 +64,4 @@ void output(char *string1, char *string2, int result)
         printf("Booth string are same");
     }
     
-}
+} 
