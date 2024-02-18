@@ -1,4 +1,4 @@
-PS E:\psc\haryax\set01> gdb a.exe
+PS E:\psc\haryax\set02> gdb a.exe      
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -8,27 +8,28 @@ and "show warranty" for details.
 This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from E:\psc\haryax\set01\a.exe...done.
-(gdb) b main
+Reading symbols from E:\psc\haryax\set02\a.exe...done.
+(gdb) b main 
 Breakpoint 1 at 0x401463
 (gdb) r
-Starting program: E:\psc\haryax\set01/a.exe
-[New Thread 18180.0x3cc0]
-[New Thread 18180.0x15dc]
+Starting program: E:\psc\haryax\set02/a.exe
+[New Thread 16596.0x4d54]
+[New Thread 16596.0x1d80]
 
 Breakpoint 1, 0x00401463 in main ()
 (gdb) n
 Single stepping until exit from function main,
 which has no line number information.
-Enter a  number:23
-Enter a  number:34
-Enter a  number:23
-largest from 23,34 and 23 is 340x00401288 in __register_frame_info ()
-(gdb) n
+Enter the base of the triangle:
+1
+Enter the base of the triangle:
+2
+The area of the triangle with base 1.000000 and height 2.000000 is :1.000000 0x00401288 in __register_frame_info ()
+(gdb) n 
 Single stepping until exit from function __register_frame_info,
 which has no line number information.
 0x0040128a in __register_frame_info ()
 (gdb) finish
 Run till exit from #0  0x0040128a in __register_frame_info ()
-[Inferior 1 (process 18180) exited normally]
+[Inferior 1 (process 16596) exited normally]
 (gdb) q
