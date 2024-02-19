@@ -12,6 +12,7 @@ int main()
     n=input();
     sqrt = square_root(n);
     output(n,sqrt);
+    return 0;
 }
 float input()
 {

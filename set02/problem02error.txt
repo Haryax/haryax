@@ -1,0 +1,26 @@
+PS E:\psc\haryax\set02> gcc problem02.c
+PS E:\psc\haryax\set02> ./a.exe        
+Enter the side of  the triangle: 
+12
+Enter the side of  the triangle:
+12
+Enter the side of  the triangle:
+34
+The triangle is not scalene
+PS E:\psc\haryax\set02> ./a.exe        
+Enter the side of  the triangle:
+12
+Enter the side of  the triangle:
+23
+Enter the side of  the triangle:
+23
+The triangle is not scalene
+PS E:\psc\haryax\set02> gcc problem02.c
+PS E:\psc\haryax\set02> ./a.exe        
+Enter the side of  the triangle: 
+12
+Enter the side of  the triangle:
+23
+Enter the side of  the triangle:
+34
+The triangle is scalene
