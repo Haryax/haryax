@@ -1,0 +1,10 @@
+PS E:\psc\haryax\set02> gcc problem03.c
+PS E:\psc\haryax\set02> ./a.exe        
+Enter any number:
+11
+The number 11 is prime number:
+PS E:\psc\haryax\set02> gcc problem03.c
+PS E:\psc\haryax\set02> ./a.exe        
+Enter any number:
+24
+The number 24 is a composite number:

@@ -1,0 +1,5 @@
+PS E:\psc\haryax\set01> gcc problem04.c
+PS E:\psc\haryax\set01> ./a.exe        
+Enter a number:5
+Enter a number:4
+the sum of 5 and 4 is 9

@@ -1,4 +1,4 @@
-PS E:\psc\haryax\set01> gdb problem10.exe
+PS E:\psc\haryax\set02> gdb problem03.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -8,28 +8,27 @@ and "show warranty" for details.
 This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from E:\psc\haryax\set01\problem10.exe...done.
+Reading symbols from E:\psc\haryax\set02\problem03.exe...done.
 (gdb) b main
 Breakpoint 1 at 0x401463
 (gdb) r
-Starting program: E:\psc\haryax\set01/problem10.exe
-[New Thread 26472.0x120c]
-[New Thread 26472.0x6698]
+Starting program: E:\psc\haryax\set02/problem03.exe
+[New Thread 18620.0x1f7c]
+[New Thread 18620.0x2a0c]
 
 Breakpoint 1, 0x00401463 in main ()
 (gdb) n
 Single stepping until exit from function main,
 which has no line number information.
-Enter the string :
-hello
-Enter the string :
-hellw
-hello is greater0x00401288 in __register_frame_info ()
+Enter any number:
+11
+The number 11 is prime number.0x00401288 in __register_frame_info ()
 (gdb) n
 Single stepping until exit from function __register_frame_info,
 which has no line number information.
 0x0040128a in __register_frame_info ()
 (gdb) finish
 Run till exit from #0  0x0040128a in __register_frame_info ()
-[Inferior 1 (process 26472) exited normally]
+[Inferior 1 (process 18620) exited normally]
 (gdb) q
+PS E:\psc\haryax\set02>

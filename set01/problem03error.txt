@@ -1,0 +1,5 @@
+PS E:\psc\haryax\set01> gcc problem03.c
+PS E:\psc\haryax\set01> ./a.exe        
+Enter a number:3
+Enter a number:4
+The sum of 3 and 4 is 7

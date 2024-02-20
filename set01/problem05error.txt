@@ -1,0 +1,6 @@
+PS E:\psc\haryax\set01> gcc problem05.c
+PS E:\psc\haryax\set01> ./a.exe        
+Enter a  number:2
+Enter a  number:3
+Enter a  number:4
+largest from 2,3 and 4 is 4
