@@ -1,0 +1,10 @@
+PS E:\psc\haryax\set02> gcc problem04.c
+PS E:\psc\haryax\set02> ./a.exe        
+Enter the size of the array: 5
+Enter the array elements: 
+45
+87
+54
+76
+34
+The sum of all the composite numbers in the given array is = 296
