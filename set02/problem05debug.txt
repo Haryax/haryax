@@ -1,0 +1,32 @@
+PS E:\psc\haryax\set02> gdb a.exe      
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from E:\psc\haryax\set02\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401463
+(gdb) r
+Starting program: E:\psc\haryax\set02/a.exe
+[New Thread 22344.0x1cf4]
+[New Thread 22344.0x2ea8]
+Breakpoint 1, 0x00401463 in main ()
+(gdb) n
+Single stepping until exit from function main,
+which has no line number information.
+Enter a number:12
+Enter a number:6
+The hcf of the given numbers 12 and 6 is 60x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 22344) exited normally]
+(gdb) q

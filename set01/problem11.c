@@ -19,7 +19,6 @@ int main()
 	Sum = add_complex(C1,C2);
 	output(C1,C2,Sum);
 }
-
 Complex input_complex()
 {
 	Complex C;

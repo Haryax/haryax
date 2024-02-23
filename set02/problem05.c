@@ -11,6 +11,9 @@ int main()
     int a,b,gcd;
     a=input();
     b=input();
+    gcd=find_gcd(a,b);
+    output(a,b,gcd);
+    return 0;
 }
 int input()
 {
@@ -20,14 +23,18 @@ int input()
     return x;
 }
 int find_gcd(int a, int b)
-{
-    for ( i=1; i<=a; i++)
+{   
+    int c=a%b;
+    if (c!=0)
     {
-        /* code */
+        find_gcd(b,c);
     }
-    
+    else
+    {
+        return b;
+    }    
 }
 void output(int a, int b, int gcd)
 {
-
+    printf("The hcf of the given numbers %d and %d is %d",a,b,gcd);
 }

@@ -1,0 +1,5 @@
+PS E:\psc\haryax\set02> gcc problem05.c
+PS E:\psc\haryax\set02> ./a.exe        
+Enter a number:6
+Enter a number:12
+The hcf of the given numbers 6 and 12 is 6
