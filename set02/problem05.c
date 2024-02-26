@@ -18,7 +18,7 @@ int main()
 int input()
 {
     int x;
-    printf("Enter a number:");
+    printf("Enter number:");
     scanf("%d",&x);
     return x;
 }
@@ -36,5 +36,6 @@ int find_gcd(int a, int b)
 }
 void output(int a, int b, int gcd)
 {
-    printf("The hcf of the given numbers %d and %d is %d",a,b,gcd);
+    printf("The HCF of the given numbers %d and %d will be %d",a,b,gcd);
+
 }
