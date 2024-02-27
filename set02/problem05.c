@@ -27,7 +27,7 @@ int find_gcd(int a, int b)
     int c=a%b;
     if (c!=0)
     {
-        find_gcd(b,c);
+     find_gcd(b,c);
     }
     else
     {
