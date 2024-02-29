@@ -23,8 +23,12 @@ int input_number()
 }
 int is_composite(int n)
 {
-    for (int i=2;i<n/2;i++)
+    if(n==2){
+        return 69;
+    }
+    for (int i=3;i<n/2;i+=2)
     {
+        printf("0");
         if (n%i == 0)
         {
             return 1;
