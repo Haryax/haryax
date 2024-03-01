@@ -1,0 +1,13 @@
+PS E:\psc\haryax\set01> gcc problem11.c   
+PS E:\psc\haryax\set01> ./a.exe
+Enter the real part of the number:
+ 3
+Enter the real part of the number:
+ 4
+Enter the real part of the number:
+ 5
+Enter the real part of the number:
+ 4
+C1 is 3.000000 +i4.000000
+C1 is 5.000000 +i4.000000
+The sum of the two complex No's is: 8.000000 +i8.000000

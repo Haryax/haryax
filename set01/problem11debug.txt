@@ -1,0 +1,42 @@
+PS E:\psc\haryax\set01> gdb problem11.exe 
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from E:\psc\haryax\set01\problem11.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401463
+(gdb) r
+Starting program: E:\psc\haryax\set01/problem11.exe
+[New Thread 20676.0x51e4]
+[New Thread 20676.0x3580]
+
+Breakpoint 1, 0x00401463 in main ()
+(gdb) n
+Single stepping until exit from function main,
+which has no line number information.
+Enter the real part of the number:
+ 4
+Enter the real part of the number:
+ 5
+Enter the real part of the number:
+ 5
+Enter the real part of the number:
+ 4
+C1 is 4.000000 +i5.000000
+C1 is 5.000000 +i4.000000
+The sum of the two complex No's is: 9.000000 +i9.000000
+0x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) finish
+Run till exit from #0  0x0040128a in __register_frame_info ()
+[Inferior 1 (process 20676) exited normally]
+(gdb) q

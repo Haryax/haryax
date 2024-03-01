@@ -22,9 +22,9 @@ int main()
 Complex input_complex()
 {
 	Complex C;
-	printf("Enter the real part of the number: \n ");
+	printf("Enter the real part of the number:\n ");
 	scanf("%f",&C.real);
-	printf("Enter the real part of the number: \n ");
+	printf("Enter the real part of the number:\n ");
 	scanf("%f",&C.imaginary);
 	return C;
 }
