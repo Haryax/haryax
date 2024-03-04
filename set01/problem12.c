@@ -21,7 +21,6 @@ int main()
     input_n_complex(n,complex_no);
     Complex sum = add_n_complex(n,complex_no);
     output(n,complex_no,sum);
-
     return 0;
 }
 int get_n()

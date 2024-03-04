@@ -17,12 +17,7 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str)
 {
-    int len1=srlen(str);
-    for(inti=0;i<len1;i++)
-    {
-        reva[i] = str[len-1-i];
-    }
-    reva[len1] = '\0';
+    
 }
 void output(char *a, char *reverse_a)
 {
